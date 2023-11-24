@@ -1,13 +1,13 @@
 # FinancialDistressPrediction
 
-Introduction to Financial Distress:
+### Introduction to Financial Distress:
 Forecasting financial distress is crucial for assessing a company's financial stability. It aims to differentiate between stable companies and those facing potential financial trouble. This prediction not only aids companies in early risk identification and strategic adjustments but also helps investors gauge financial risks for wiser investment choices. Regulators benefit by gaining timely insights into companies' financial health, enabling effective supervision to uphold financial market stability. Consequently, effective prediction of financial distress has become a focal point in both academic and business realms.
 
-# Introduction to problem statement:
+### Introduction to problem statement:
 We've received four data files: training, testing, sample submissions, and a data dictionary. Using this information, our aim is to predict whether someone might face financial distress in the upcoming two years. The objective here is to construct a model that borrowers can utilize to make informed financial choices. To achieve this, we'll train our model with a substantial amount of labeled data and optimize its accuracy through hyperparameter tuning. Ultimately, we'll use this model to predict outcomes on test data and preserve both the predictions and the model itself.
 
 
-# Column Description :
+### Column Description :
 - SeriousDlqin2yrs : 90 days past due delinquency or worse
 - RevolvingUtilizationOfUnsecuredLines : Total balance on credit cards and personal lines of credit except real estate and no installment debt like car loans divided by the sum of credit limits
 - age : Age of borrower in years
